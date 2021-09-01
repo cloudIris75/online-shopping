@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Online Shopping</title>
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <img src="assets/images/logo.png" class="logo" />
+    </header>
+
+    <!-- Menu -->
+    <section class="menu">
+      <button class="btn">
+        <img
+          src="assets/images/blue_t.png"
+          alt="tshirt"
+          class="itemBtn"
+          data-key="type"
+          data-value="tshirt"
+        />
+      </button>
+      <button class="btn">
+        <img
+          src="assets/images/blue_p.png"
+          alt="pants"
+          class="itemBtn"
+          data-key="type"
+          data-value="pants"
+        />
+      </button>
+      <button class="btn">
+        <img
+          src="assets/images/blue_s.png"
+          alt="skirt"
+          class="itemBtn"
+          data-key="type"
+          data-value="skirt"
+        />
+      </button>
+      <button class="btn colorBtn" data-key="color" data-value="blue">
+        Blue
+      </button>
+      <button class="btn colorBtn" data-key="color" data-value="yellow">
+        Yellow
+      </button>
+      <button class="btn colorBtn" data-key="color" data-value="pink">
+        Pink
+      </button>
+    </section>
+
+    <!-- List -->
+    <section class="list">
+      <ul class="items"></ul>
+    </section>
+  </body>
+</html>

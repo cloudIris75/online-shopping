@@ -1,0 +1,124 @@
+:root {
+  /* Color */
+  --white-color: #fefffe;
+  --black-color: #0e0e0e;
+  --blue-color: #4ba4ec;
+  --yellow-color: #f8b720;
+  --pink-color: #fb7478;
+  --grey-dark-color: #363c44;
+
+  /* Size */
+  --padding: 8px;
+  --item-size: 60px;
+  --border-size: 4px;
+
+  /* Font Size */
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+
+  /* Animation */
+  --animation-duration: 300ms;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--grey-dark-color);
+}
+
+.logo {
+  cursor: pointer;
+  transition: transform var(--animation-duration) ease;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: calc(var(--padding) * 5);
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: var(--padding) 0;
+}
+
+.menu .btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: transform var(--animation-duration) ease;
+  background-color: transparent;
+  margin-right: var(--padding);
+}
+
+.logo:hover,
+.menu .btn:hover {
+  transform: scale(1.1);
+}
+
+.menu .colorBtn {
+  font-size: var(--font-large);
+  padding: 0 var(--padding);
+  height: calc(var(--item-size) * 0.9);
+  border-radius: var(--border-size);
+}
+
+.menu .colorBtn:nth-last-of-type(3) {
+  background-color: var(--blue-color);
+}
+
+.menu .colorBtn:nth-last-of-type(2) {
+  background-color: var(--yellow-color);
+}
+
+.menu .colorBtn:nth-last-of-type(1) {
+  background-color: var(--pink-color);
+}
+
+.menu .itemBtn {
+  padding: 0;
+  height: var(--item-size);
+}
+
+/* List */
+.list .items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  height: 650px;
+}
+
+.list .items li {
+  display: flex;
+  align-items: center;
+  background-color: var(--white-color);
+  margin-top: var(--padding);
+  border-radius: var(--border-size);
+  width: 60%;
+  min-width: 500px;
+  max-width: 1000px;
+}
+
+.list .items li img {
+  height: var(--item-size);
+  padding: var(--padding);
+}
+
+.list .items li span {
+  font-size: var(--font-large);
+}
