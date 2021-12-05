@@ -1,5 +1,5 @@
 # Mini Online Shopping Mall
-|<img src="assets/images/index.png" alt="index" />|<img src="assets/images/click-pants.png" alt="click-pants" />|<img src="assets/images/click-pink.png" alt="click-pink" />|
+|<img src="assets/images/index.png" alt="index" />|<img src="assets/images/click-pants.png" alt="click pants" />|<img src="assets/images/click-pink.png" alt="click pink" />|
 |:-:|:-:|:-:|
 |Home|Click the 'pants' button|Click the 'pink' button|
 
