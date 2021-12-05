@@ -1,7 +1,7 @@
 # Mini Online Shopping Mall
 |<img src="assets/images/index.png" alt="index" />|<img src="assets/images/click-pants.png" alt="click pants" />|<img src="assets/images/click-pink.png" alt="click pink" />|
 |:-:|:-:|:-:|
-|Home|Click the 'Pants' button|Click the 'Pink' button|
+|Click the 'Home' button|Click the 'Pink' button|Click the 'Pants' button|
 
 ## About
 미니 온라인 쇼핑몰 게임. 각 종류/색상 버튼 클릭 시 그에 해당하는 상품 목록이 분류되어 나타나고, 홈 버튼 클릭 시 다시 전체 상품 목록이 출력된다. JSON 파일을 연동하여 상품 데이터를 불러와서 사용했다.
