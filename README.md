@@ -1,4 +1,4 @@
-# Mini Online Shopping Mall
+# Mini Online Shopping Mall Game
 |<img src="assets/images/index.png" alt="index" />|<img src="assets/images/click-pants.png" alt="click pants" />|<img src="assets/images/click-pink.png" alt="click pink" />|
 |:-:|:-:|:-:|
 |Click the 'Home' button|Click the 'Pink' button|Click the 'Pants' button|
