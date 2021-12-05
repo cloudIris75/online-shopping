@@ -13,6 +13,11 @@ HTML, CSS, Vanilla JavaScript
 2021.8.31. ~ 2021.8.31. (6h 30m)
 
 ## Roadmap
+- [X] Wireframing
+
+|<img src="assets/images/wireframing.png" width="80%" height="80%" alt="wireframing" />|
+|:-:|
+
 - [X] Scroll item list
 - [X] Fetch the items from the JSON file
 - [X] Filter items by type or color with buttons
